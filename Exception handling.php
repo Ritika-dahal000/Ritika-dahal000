@@ -12,11 +12,11 @@ try{
     division(30,-4);
     division(15,0);
     //if exception is thrown following line won't execute
-    echo '<p>All divisions performed successfully.</p>';
+    echo '<p>Dvisions are performed successfully.</p>';
 } catch(Exception $e){
     //handle the exeption
     echo "<p>Caught exception: " .$e->getMessage() ."</p>";
 }
 //continue execution
-echo "<p>Hello world!</p>";
+echo "<p>Hello world! This is me.</p>";
 ?>
